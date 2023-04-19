@@ -1,9 +1,9 @@
-const yourApiKey = 'ea4ec6f9a33124bba29e1aa289b4c432';
+const ApiKey = 'ea4ec6f9a33124bba29e1aa289b4c432';
 
 function getImages(seachItem) {
   const data = {
     method: 'flickr.photos.search',
-    api_key: yourApiKey,
+    api_key: ApiKey,
     text: seachItem, // Search Text
     sort: 'interestingness-desc',
     per_page: 12,

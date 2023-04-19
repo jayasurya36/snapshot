@@ -1,5 +1,4 @@
 import { Link, Outlet } from "react-router-dom";
-import { useEffect, useState } from "react";
 import searchIcon from '../Assets/search_FILL0_wght400_GRAD0_opsz48.png';
 import { useImagecontext } from "../context/ContextProvider";
 export default function SearchImage() {
