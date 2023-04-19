@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body{
+    background-color: aliceblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    color: rgb(1, 1, 75);
+    text-align: center;
+    font-size: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchContainer *{
+    margin: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.searchContainer input{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#searchIconContainer{
+    background-color: rgb(1, 1, 75);
+    border-radius: 5px;
+    width: 60px;
+}
+#searchIcon{
+    width: 30px;
+}
+.buttonContainer{
+    text-align: center;
+    margin: 15px;
+}
+.buttonContainer *{
+    margin: 5px;
+}
+button{
+    background-color:rgb(1, 1, 75);
+    color: white;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px ;
+}
+.ImageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ImageContainer *{
+    margin: 5px;
+    width: 400px;
 }

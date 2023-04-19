@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AppRouter from './Routes/AppRouter';
+import { ContextProvider } from './context/ContextProvider';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  return <ContextProvider>
+  <AppRouter/>
+  </ContextProvider>
 }
 
 export default App;
+/**
+ * 
+ * https://farm66.staticflickr.com/65535/36493087974_4df1b792a8.jpg
+ */
