@@ -26,6 +26,7 @@ body{
 }
 #searchIcon{
     width: 30px;
+    border: none;
 }
 .buttonContainer{
     text-align: center;
