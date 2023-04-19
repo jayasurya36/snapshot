@@ -3,8 +3,7 @@
 export default function ImageComponent({data}){
     const {id , farm , server , secret , title} = data;
     const ImageUrl = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`;
-    return <div>
-        
+    return <div className="image">
         <img src= {ImageUrl} alt={title} />
     </div>
 }

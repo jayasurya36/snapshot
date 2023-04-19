@@ -48,6 +48,10 @@ button{
     justify-content: center;
 }
 .ImageContainer *{
-    margin: 5px;
+    margin: 10px;
     width: 400px;
+}
+.image :hover{
+    margin: 0% 2%;
+    width: 105%;
 }
